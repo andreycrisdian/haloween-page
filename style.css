@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1: #454445;
+    --color2: #D55E01;
+}
+
+header{
+    background-color: var(--color1);
+    height: 70px;
+}
+
+#title{
+    color: var(--color2);
+    display: flex;
+    padding-top: 20px;
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+}
+#navigation > a{
+    color: white;
+    text-decoration: none;
+    width: 150px;
+     
+}
